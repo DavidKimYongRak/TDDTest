@@ -1,10 +1,13 @@
 package test;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+import static org.junit.Assert.fail;
 
 import main.Account;
+
+import org.junit.Test;
+ 
+
+
 
 /*
  * 계좌 기능은 3가지
@@ -13,7 +16,7 @@ import main.Account;
  * 출금
  * */
 public class AccountTest {
-	
+		
 	//계좌를 생성한다 -> 계좌가 정상적으로 생성됐는지 확인한다.
 	@Test
 	public void testAccount() throws Exception {
